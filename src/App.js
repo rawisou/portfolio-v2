@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from './components/Header/Header'
-
+import Introduction from './components/Introduction/Introduction'
 const App = () => {
 
   return (
-    <div>
+    <main>
       <Header/>
-    </div>
+      <Introduction/>
+
+    </main>
   )
 }
 

@@ -1,0 +1,26 @@
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.logo-box img {
+    width: 50px;
+    animation: animation 2s;
+}
+
+@keyframes animation {
+    from {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.05, );
+    }
+
+    75% {
+        transform: scale(1.05, 0.9);
+       }
+    to {
+        transform: scale(1, 1)
+    }
+}

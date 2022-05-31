@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    transform: rotate(-90deg);
+    font-size: 3em;
+    position: absolute;
+    top: 50vh;
+    left: -8vh;
+}
+
+.scroll-down-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-down-arrow img {
+    width: 100px;
+    animation: arrow 1s linear infinite;
+    transform-origin: top bottom;
+}
+
+@keyframes arrow{
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-5px);
+      }
+  }
+
+.center-elem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 50px 50px;
+}
+
+.center-elem-container p {
+    margin: 0;
+}
+
+.profile-pic {
+    width: 300px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box p {
+    font-size: 1.2em;
+}

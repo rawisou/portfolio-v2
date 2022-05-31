@@ -6,7 +6,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <header id='sectionHeader'>
+        <header id='headerSection'>
             <Nav />
             <LogoBox />
             <h2>RAWISARA S.</h2>

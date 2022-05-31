@@ -19,6 +19,7 @@ h2 {
 }
 .scroll-down-arrow img {
     width: 100px;
+    margin-bottom: 50px;
     animation: arrow 1s linear infinite;
     transform-origin: top bottom;
 }

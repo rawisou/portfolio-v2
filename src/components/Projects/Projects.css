@@ -1,0 +1,121 @@
+
+h3 {
+    color: white;
+    padding: 5px;
+    background-color: rgb(29, 29, 29);
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+h4 {
+    color: white;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+h5 span {
+    text-transform: none;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+
+.featured-projects-container {
+    margin: 30px 10px;
+}
+
+.featured-project-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.featured-project-img {
+    width: 300px;
+}
+
+.text-box{
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.text-box p {
+    font-size: .8em;
+}
+.overlay-card {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.6);
+transition: 0.5s ease;
+}
+
+.text-overlay {
+    position: absolute;
+}
+
+.overlay-card:hover {
+    opacity: 0;
+}
+
+.featured-project-card:hover .text-overlay {
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.tags p{
+    background-color: rgb(108, 109, 111);
+    color: white;
+    padding: 3px;
+    margin: 10px 5px 5px 2px;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.github-repo {
+    width: 22px;
+    margin-right: 3px;
+}
+
+.view-code {
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+    color: #171749;
+}
+@media (min-width: 900px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .featured-project-img {
+        width: 400px;
+    }
+    .text-box {
+        max-width: 400px;
+    }
+    .text-box p {
+        font-size: 1em;
+    }
+ } 

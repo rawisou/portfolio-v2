@@ -1,0 +1,19 @@
+.medium__article--link {
+    font-weight: 600;
+   }
+   
+   .medium__card__image img {
+       margin-top : 20px;
+       width: 300px;
+   }
+   
+   .medium__card__text-box {
+       margin: 10px 30px 10px 30px;
+       max-width: 500px;
+       text-align: left;
+   }
+   
+   .medium__card__text-box {
+       font-size: .8em;
+   }
+   

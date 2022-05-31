@@ -1,15 +1,26 @@
 h1 {
+    text-align: right;
+    font-weight: 300;
+    width: 90vw;
+}
+
+h2 {
     text-align: center;
     font-size: 3em;
 }
 
-h2 {
+header {
+    margin-top: 2em;
+}
+
+
+/* h2 {
     transform: rotate(-90deg);
     font-size: 3em;
     position: absolute;
     top: 50vh;
-    left: -8vh;
-}
+    left: -1vh;
+} */
 
 .scroll-down-arrow {
     display: flex;
@@ -52,8 +63,4 @@ h2 {
 .text-box {
     display: flex;
     flex-direction: column;
-}
-
-.text-box p {
-    font-size: 1.2em;
 }

@@ -1,7 +1,9 @@
 h1 {
-    text-align: right;
-    font-weight: 300;
-    width: 90vw;
+    transform: rotate(-90deg);
+    font-size: 2em;
+    position: absolute;
+    top: 55vh;
+    left: 40px;
 }
 
 h2 {
@@ -12,15 +14,6 @@ h2 {
 header {
     margin-top: 2em;
 }
-
-
-/* h2 {
-    transform: rotate(-90deg);
-    font-size: 3em;
-    position: absolute;
-    top: 50vh;
-    left: -1vh;
-} */
 
 .scroll-down-arrow {
     display: flex;
@@ -63,4 +56,72 @@ header {
 .text-box {
     display: flex;
     flex-direction: column;
+}
+
+
+@media (max-width: 900px) {
+    h1 {
+        transform: rotate(0);
+        position: relative;
+        text-align: center;
+        font-size: 1.2em;
+        top: 0;
+        left: 0;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    .center-elem-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .scroll-down-arrow img {
+        width: 50px;
+    }
+    .profile-pic {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        background-size: 500px;
+        background-repeat:repeat-x;
+        width: 100vw;
+    }
+    
+    .header__linked-icons {
+        gap: 5px;
+        height: 50px;
+        margin: 20px 20px 5px auto;
+    }
+    
+    .header__linked-icons img{
+        width: 50px;
+        height: 50px;
+        order: 2;
+    }
+    
+    .header__text {
+        margin: 60px auto 0 auto;
+        line-height: 1.5;
+    }
+    
+    .header__profile-pic__container {
+        margin-left: auto;
+        padding-right: 80px;
+    }
+    .header__profile-picture--picture {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: 3px solid #FFFFFF;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    nav {
+        display: none;
+    }
+
+
 }

@@ -16,7 +16,6 @@ nav ul {
     list-style: none; 
     padding: 0px;
     margin: 0px;
-    width: 95vw;
 }
 
 nav li {
@@ -51,5 +50,9 @@ nav a {
         font-size: 1.4em;
         display: inline-block;
         margin-right: -4px;
+    }
+
+    nav ul {
+        width: 129vh;
     }
 }

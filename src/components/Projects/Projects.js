@@ -31,9 +31,9 @@ const Projects = () => {
 
   const allOtherProjects = otherProjects.map((project) => {
     return (
-      <div className="other-projects__card--content">
+      <div>
         <div>
-          <a href={project.netlify} target="_blank" rel="noopener noreferrer">
+          <a className='other-project-link' href={project.netlify} target="_blank" rel="noopener noreferrer">
             <h5>{project.project} <span> {project.description} </span> >> </h5>
           </a>
           <div className='tags'>
@@ -45,19 +45,19 @@ const Projects = () => {
   })
 
   return (
-    <>
-      <div className="flex">
-      <h3>Featured projects</h3>
+    <section className='projects-section'>
+            <div className="flex">
+        <h3>Featured Projects</h3>
       </div>
       <div className='grid'>
       {allFeaturedProjects}
       </div>
       <div className="flex">
-      <h3>OTHER PROJECTS</h3>
+        <h3>Other Projects</h3>
       </div>
       {allOtherProjects}
       <a href='https://www.frontendmentor.io/profile/rawisou'><h5>Frontend mentor challenges >></h5></a>
-    </>
+    </section>
   )
 }
 

@@ -14,6 +14,9 @@ const App = () => {
     <main>
       <Header/>
       <Introduction/>
+      <div className="flex">
+        <h3>TECH</h3>
+      </div>
       <Tech/>
       <Projects />
       <Skills/>

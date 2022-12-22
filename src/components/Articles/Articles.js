@@ -6,7 +6,7 @@ import './Articles.css'
 
 const Articles = () => {
   return (
-  <section className='odd to-center'>
+  <section>
       <div className="flex">
         <h3>My thoughts about code</h3>
       </div>
@@ -26,7 +26,7 @@ const Articles = () => {
               <p> {article.preview}</p>
               <a className="medium__article--link brick-color" target="_blank" rel="noopener noreferrer"
                 href={article.link}>
-                Read the full article >> </a>
+                Read the full article >>  </a>
             </div>
           </articles>
         )

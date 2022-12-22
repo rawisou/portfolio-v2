@@ -1,3 +1,12 @@
 .tech__card {
     padding: 20px 20px;
 }
+
+.tech-section p, h3 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.bolded-color {
+    font-weight: 600;
+}

@@ -1,7 +1,9 @@
-.bold {
-    margin-bottom: 30px;
+.intro-section {
+    background-color: rgb(234, 234, 234);
+    width: 100vw;
+    margin-bottom: 20px;
 }
-.bold p {
-    font-size: 1.5em;
-    text-align: center;
+.intro-section p {
+font-size: 1.5em;
+text-align: center;
 }

@@ -1,14 +1,16 @@
 import React from 'react'
 import LogoBox from '../LogoBox/LogoBox'
 
+import Nav from '../Nav/Nav'
+
 import './Header.css'
 
 const Header = () => {
     return (
         <header id='headerSection'>
-            <h1>PORTFOLIO: RAWISARA SAMAN</h1>
+            <Nav />
+            <h1>PORTFOLIO: RAWISARA</h1>
             <LogoBox />
-            {/* <h2>RAWISARA S.</h2> */}
             <div className='center-elem-container'>
                 <div className='text-box'>
                   <h2>FRONTEND <br /> DEVELOPER</h2>

@@ -4,8 +4,8 @@ import './Skills.css'
 
 const Skills = () => {
   return (
-    <section className='to-center flex'>
-      <div className="section--h3">
+    <section>
+            <div className="flex">
         <h3>SKILLS</h3>
       </div>
       <div className="skills__card--content">

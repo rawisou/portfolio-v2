@@ -9,14 +9,13 @@ const Header = () => {
     return (
         <header id='headerSection'>
             <Nav />
-            <h1>PORTFOLIO: RAWISARA</h1>
             <LogoBox />
             <div className='center-elem-container'>
                 <div className='text-box'>
-                  <h2>FRONTEND <br /> DEVELOPER</h2>
+                  <h1>FRONTEND <br /> DEVELOPER</h1>
+                    <p>+ Technical Product Specialist (AdTech, MarTech)</p>
+                    <p>+ Ecommerce speciliast</p>
                     <p>+ writer</p>
-                    <p>+ fraud, risk and payments analyst</p>
-                    <p>+ ecommerce support specialist</p>
                 </div>
                 <img className='profile-pic' src='./images/profile-pic-vert.svg'  alt='profile'/>
             </div>

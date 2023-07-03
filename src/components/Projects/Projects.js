@@ -45,7 +45,7 @@ const Projects = () => {
   })
 
   return (
-    <section className='projects-section'>
+    <section className='projects-section' id='projectSection'>
             <div className="flex">
         <h3>Featured Projects</h3>
       </div>

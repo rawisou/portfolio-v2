@@ -82,7 +82,7 @@ export const featuredProjects = [
     {
         id: 9,
         title: 'Testimonial page',
-        name: 'This is one of my first CSS practice. I like to come back to this project to see how far I have come and how much I have learned in just a short period of time.',
+        name: 'This is one of my first CSS practice projects. I like to come back to this project to see how far I have come and how much I have learned in just a short period of time.',
         img: './images/testimonials-grid.svg',
         description: 'In this challenge I practised CSS selectors such as nth-child() for styling the texts and used css grid.',
         netlify: 'https://rawi-testimonials-grid-section-challenge.netlify.app/',

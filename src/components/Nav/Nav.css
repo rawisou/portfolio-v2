@@ -2,7 +2,7 @@ nav {
     display: block;
 }
 
-nav > ul > li {
+nav>ul>li {
     text-align: center;
 }
 
@@ -10,10 +10,10 @@ nav a {
     text-decoration: none;
     display: block;
     transition: 1s;
-} 
+}
 
 nav ul {
-    list-style: none; 
+    list-style: none;
     padding: 0px;
     margin: 0px;
 }
@@ -24,6 +24,7 @@ nav li {
     line-height: 40px;
     border-color: black;
 }
+
 li a {
     color: black;
 }
@@ -34,6 +35,24 @@ nav a {
     transition: 1s;
 }
 
+.outer-bar {
+    height: .25em;
+}
+
+.inner-bar {
+    height: .25em;
+    width: 100%;
+    background: #22f4b9;
+    animation: fillBar 1s forwards;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+}
+
+@keyframes fillBar {
+    to {
+        transform: scaleX(1)
+    }
+}
 
 @media (min-width: 650px) {
     nav {
@@ -43,7 +62,6 @@ nav a {
     }
 
     nav li {
-        width: 130px;
         border-bottom: none;
         height: 50px;
         line-height: 50px;
@@ -53,6 +71,6 @@ nav a {
     }
 
     nav ul {
-        width: 129vh;
+        width: 140vh;
     }
 }

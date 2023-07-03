@@ -4,11 +4,13 @@ import "./Nav.css"
 const Nav = () => {
   return (
     <nav>
+
       <ul>
-        <li><a href='#headerSection'> HOME </a> </li>
-        <li><a href='#introSection'> ABOUT </a></li>
-        <li><a href='#projectSection'> PROJECTS</a></li>
-        <li><a href='#contactSection'> CONTACT </a></li>
+        <li> <a href='#projectSection'>MY PROJECTS</a>
+          <div class="outer-bar">
+            <div class="inner-bar">
+            </div>
+          </div></li>
       </ul>
     </nav>
   )

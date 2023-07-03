@@ -58,6 +58,10 @@ header {
     flex-direction: column;
 }
 
+.text-box p {
+    margin-bottom: 7px;
+}
+
 
 @media (max-width: 900px) {
     h1 {
@@ -78,9 +82,9 @@ header {
     .scroll-down-arrow img {
         width: 50px;
     }
-    .profile-pic {
+    /* .profile-pic {
         display: none;
-    }
+    } */
 
     header {
         display: flex;
